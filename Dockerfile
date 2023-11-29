@@ -3,7 +3,7 @@ FROM scratch
 LABEL maintainer=lixia
 LABEL homepage="https://github.com/lixia755324"
 
-RUN ls
+ADD a.txt
 
 EXPOSE 80
 USER root
