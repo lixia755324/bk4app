@@ -3,7 +3,7 @@ FROM scratch
 LABEL maintainer=lixia
 LABEL homepage="https://github.com/lixia755324"
 
-ADD a.txt ./
+ADD openwrt.tar.gz ./
 
 EXPOSE 80
 USER root
